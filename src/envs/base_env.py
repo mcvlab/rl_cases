@@ -5,13 +5,13 @@ class BaseEnv:
     """环境的基类"""
 
     def __init__(self, **kwargs):
-        pass
+        raise NotImplementedError("please implement at first")
 
     def step(self, **kwargs):
-        pass
+        raise NotImplementedError("please implement at first")
 
     def reset(self, **kwargs):
-        pass
+        raise NotImplementedError("please implement at first")
 
     def render(self, **kwargs):
-        pass
+        raise NotImplementedError("please implement at first")
