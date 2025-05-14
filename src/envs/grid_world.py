@@ -235,6 +235,13 @@ class GridWorld(BaseEnv):
                 x, y, str(value), ha="center", va="center", fontsize=10, color="black"
             )
 
+    def get_S(self):
+        S = [(i, j) for i in range(self.env_size) for j in range(self.env_size)]
+        return S
+
+    def get_A(self):
+        return self.action_space
+
 
 # Example usage:
 if __name__ == "__main__":
