@@ -1,4 +1,4 @@
 loguru
 matplotlib
 numpy
-gym
+gymnasium
