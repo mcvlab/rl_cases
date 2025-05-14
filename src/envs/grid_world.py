@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 __credits__ = ["Intelligent Unmanned Systems Laboratory at Westlake University."]
 
 """ref
